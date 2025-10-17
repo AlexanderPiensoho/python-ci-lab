@@ -15,6 +15,7 @@ def test_multiply():
 
 def test_division():
     assert division(10, 2) == 5
+    assert division(20, 10) == 2
 
 def test_divide_by_zero():
     with pytest.raises(ValueError):
